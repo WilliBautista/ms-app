@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "https://willibautista.github.io/ms-app/static/css/main.922c08b8.chunk.css",
+    "main.js": "https://willibautista.github.io/ms-app/static/js/main.bd2226d9.chunk.js",
+    "main.js.map": "https://willibautista.github.io/ms-app/static/js/main.bd2226d9.chunk.js.map",
+    "runtime-main.js": "https://willibautista.github.io/ms-app/static/js/runtime-main.69086eee.js",
+    "runtime-main.js.map": "https://willibautista.github.io/ms-app/static/js/runtime-main.69086eee.js.map",
+    "static/css/2.e6cff7ba.chunk.css": "https://willibautista.github.io/ms-app/static/css/2.e6cff7ba.chunk.css",
+    "static/js/2.b504450c.chunk.js": "https://willibautista.github.io/ms-app/static/js/2.b504450c.chunk.js",
+    "static/js/2.b504450c.chunk.js.map": "https://willibautista.github.io/ms-app/static/js/2.b504450c.chunk.js.map",
+    "index.html": "https://willibautista.github.io/ms-app/index.html",
+    "static/css/2.e6cff7ba.chunk.css.map": "https://willibautista.github.io/ms-app/static/css/2.e6cff7ba.chunk.css.map",
+    "static/css/main.922c08b8.chunk.css.map": "https://willibautista.github.io/ms-app/static/css/main.922c08b8.chunk.css.map",
+    "static/js/2.b504450c.chunk.js.LICENSE.txt": "https://willibautista.github.io/ms-app/static/js/2.b504450c.chunk.js.LICENSE.txt",
+    "static/media/404.3d9c0089.svg": "https://willibautista.github.io/ms-app/static/media/404.3d9c0089.svg",
+    "static/media/styles.scss": "https://willibautista.github.io/ms-app/static/media/youtube.6b5905d4.svg",
+    "static/media/logo-dark.4577e377.svg": "https://willibautista.github.io/ms-app/static/media/logo-dark.4577e377.svg",
+    "static/media/logo-ligth.764c8da3.svg": "https://willibautista.github.io/ms-app/static/media/logo-ligth.764c8da3.svg",
+    "static/media/slick-theme.css": "https://willibautista.github.io/ms-app/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69086eee.js",
+    "static/css/2.e6cff7ba.chunk.css",
+    "static/js/2.b504450c.chunk.js",
+    "static/css/main.922c08b8.chunk.css",
+    "static/js/main.bd2226d9.chunk.js"
+  ]
+}
