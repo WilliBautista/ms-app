@@ -1,0 +1,49 @@
+///
+/// Footer styles
+///
+
+.footer {
+  background-color: $color4;
+  color: $white;
+  padding-bottom: 50px;
+
+  &__top {
+    border-bottom: 1px solid $rgb2;
+    padding: $gutter 0;
+
+    @include from($sm-start) {
+      margin-bottom: $gutter;
+    }
+
+    &-left,
+    &-right {
+      display: flex;
+      justify-content: center;
+    }
+
+    &-left {
+      @include from($sm-start) {
+        justify-content: flex-start;
+      }
+
+      img {
+        display: block;
+      }
+    }
+  }
+
+  &__bottom {
+    h4 {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: $white;
+    }
+
+    &-right a {
+      text-decoration: underline;
+    }
+  }
+
+}

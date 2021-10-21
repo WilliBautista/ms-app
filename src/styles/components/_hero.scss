@@ -1,0 +1,52 @@
+///
+/// Hero slider styles
+///
+.hero {
+
+  &-slider__item {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__top {
+    @include esize(100%);
+    position: absolute;
+    z-index: -1;
+
+    &::before {
+      @include esize(100%);
+      position: absolute;
+      display: block;
+      content: '';
+      background-image: linear-gradient(to right, $rgb4 0%, $rgb5 97%);
+    }
+
+    img {
+      @include esize(100%);
+      object-fit: cover;
+      mix-blend-mode: multiply;
+    }
+  }
+
+  &__content {
+    padding: 0 $gutter;
+    color: $white;
+
+    &-left {
+      max-width: 500px;
+    }
+
+    &-title {
+      @include text(szrem(55), szrem(60), $ScalaSansBold);
+      @include header-decoration($color3);
+      margin-bottom: 10px;
+    }
+
+    &-description {
+      margin-bottom: 20px;
+    }
+  }
+}

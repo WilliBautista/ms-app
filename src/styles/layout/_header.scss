@@ -1,0 +1,98 @@
+///
+/// General styles for Header
+///
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: $white;
+  box-shadow: $shadow2;
+
+  a {
+    color: $color1;
+  }
+
+  @include from($sm-start) {
+    padding: $gutter 0;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__left {
+    img {
+      display: block;
+      width: 120px;
+
+      @include from($sm-start) {
+        width: initial;
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .burgermenu {
+      @include size(25px, 20px);
+      @include reset-control;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      span {
+        @include size(100%, 4px);
+        display: block;
+        background-color: $color1;
+        transition: $transition1;
+      }
+
+      &--open {
+        span {
+          &:nth-child(2) {
+            opacity: 0;
+          }
+
+          &:first-child {
+            transform: rotate(45deg);
+            transform-origin: left;
+          }
+
+          &:last-child {
+            transform: rotate(-45deg);
+            transform-origin: left;
+          }
+        }
+      }
+    }
+  }
+
+  &--transparent {
+    background-color: $rgb1;
+    box-shadow: none;
+
+    @include from($sm-start) {
+      background-color: initial;
+      border-bottom: 1px solid $rgb2;
+    }
+
+    a {
+      color: $white;
+    }
+
+    .header__right {
+      .burgermenu span {
+        @include size(100%, 4px);
+        display: block;
+        background-color: $white;
+        transition: $transition1;
+      }
+    }
+  }
+}

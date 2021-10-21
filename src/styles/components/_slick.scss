@@ -1,0 +1,39 @@
+///
+/// Styles for slick
+///
+
+.hero-slider {
+  .slick-dots {
+    bottom: 25px;
+    display: flex !important;
+    justify-content: center;
+    gap: $gutter;
+
+    @include from($sm-start) {
+      gap: 20px;
+    }
+
+    li,
+    button {
+      @include esize(20px);
+
+      @include from($sm-start) {
+        @include esize(25px);
+      }
+    }
+
+    button {
+      background-color: transparent;
+      border-radius: 50%;
+      border: 1px solid $white;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .slick-active button {
+      background-color: $color3;
+    }
+  }
+}
